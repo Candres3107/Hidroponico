@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "hytools-1ef35": {
+      "hosting": {
+        "hidroponicoFirebase": [
+          "hytools-1ef35"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "hytools-1ef35"
+  }
+}
