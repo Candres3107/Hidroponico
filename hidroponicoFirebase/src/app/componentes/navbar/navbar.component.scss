@@ -1,0 +1,22 @@
+#navbar .container{
+    max-width: 95%;
+}
+#navbar .row .col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+#navbar .row .col:first-child{
+    justify-content: left;
+}
+#navbar .row .col:first-child a{
+    font-size: 20px;
+    font-weight: 600;
+}
+#navbar .row .col:last-child{
+    justify-content: right;
+}
+#navbar .row .col:last-child button{
+    margin-right: -20px;
+}

@@ -1,1 +1,20 @@
-<p>dashboard works!</p>
+<app-navbar [user]="nameOrEmail" [visible]="'block'"></app-navbar>
+<div class="container py-4 mt-5">
+    <div class="row">
+        <div class="col" *ngFor="let data of dataHidro">
+            <div class="card bg-light">
+                <div class="card-title px-2 py-2 text-center">
+                    <h4>{{data.id}}</h4>
+                </div>
+                <div class="card-body text-center">
+                    <h3 class="text-success fs-5"><strong>{{data.valor}}</strong></h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 py-4">
+            <canvas id="myChart" style="position: relative; height:35vh; width:80vw">
+
+            </canvas>
+        </div>
+    </div>
+</div>

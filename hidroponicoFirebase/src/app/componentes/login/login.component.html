@@ -1,0 +1,13 @@
+<app-navbar [user]="'Bienvenido'" [visible]="'none'"></app-navbar>
+<div class='container' id="login-section">
+    <form [formGroup]="formLoginUser" (ngSubmit)="login()">
+        <div  class="card" style="width: 18rem;" >
+            <div class="card-body p-4">
+                <h5 class="card-title">Login</h5>
+                <input class="form-control m-2" type="text" placeholder="User" name="user" formControlName="user">
+                <input class="form-control m-2" type="password" placeholder="Contraseña" name="password" formControlName="password">
+                <button href="#" class="btn btn-primary btn-block m-2" type="submit" >Ingresar</button>
+            </div>
+        </div>
+    </form>
+</div>

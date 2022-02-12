@@ -1,5 +1,17 @@
-<nav class="nav nav-pills nav-justified">
-    <a class="nav-item nav-link active" href="#" *ngIf="UserLogged|async as user">{{user.email}}</a>
+<nav class="nav nav-pills nav-justified w-100 bg-primary" id="navbar">
+    <div class="container">
+        <div class="row w-100">
+            <div class="col"><a class="nav-item nav-link text-light text-left" href="#">HYTools</a></div>
+            <div class="col">
+                <p class="text-light text-center my-0">
+                    Hola, {{user}}
+                </p>
+            </div>
+            <div class="col">
+                <button class="btn btn-info btn-danger m2 w-30" [ngStyle]="{'display':visible}" (click)="Logout()">Cerrar sesion</button>
+            </div>
+        </div>
+    </div>
 
     <!--<a class="nav-item nav-link" href="#">Link</a>-->
 </nav>
