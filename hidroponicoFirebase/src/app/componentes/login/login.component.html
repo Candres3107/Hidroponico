@@ -1,13 +1,61 @@
-<app-navbar [user]="'Bienvenido'" [visible]="'none'"></app-navbar>
-<div class='container' id="login-section">
+<app-navbar [user]="'Bienvenido'" [visible]="'none'" [visiblehamburguer]="'none'"></app-navbar>
+<div class="container py-5 p-5 w-50 mt-5 rounded shadow-sm" id="login-section">
     <form [formGroup]="formLoginUser" (ngSubmit)="login()">
-        <div  class="card" style="width: 18rem;" >
+        <div class="card row align-items-stretch" style="width: 18rem">
             <div class="card-body p-4">
-                <h5 class="card-title">Login</h5>
-                <input class="form-control m-2" type="text" placeholder="User" name="user" formControlName="user">
-                <input class="form-control m-2" type="password" placeholder="Contraseña" name="password" formControlName="password">
-                <button href="#" class="btn btn-primary btn-block m-2" type="submit" >Ingresar</button>
-            </div>
+                <!--<i class="fa-solid fa-user" id="icouser"></i>-->
+                <h2 class="card-title fw-bold text-center py-5">Login</h2>
+                <span class="icon-user" id="meme"></span
+        ><input
+          class="form-control m-2"
+          type="text"
+          placeholder="Usario"
+          name="user"
+          formControlName="user"
+        />
+        <span class="icon-key" id="meme"></span
+        ><input
+          class="form-control m-2"
+          type="password"
+          placeholder="Contraseña"
+          name="password"
+          formControlName="password"
+        />
+        <div class="d-grid">
+          <button href="#" id="boton" class="btn btn-primary btn-block m-2" type="submit">
+            Ingresar
+          </button>
         </div>
-    </form>
+      </div>
+    </div>
+  </form>
+  <!--<div
+    id="toast-add"
+    style="background-color: #ffcdd2 !important;"
+    class="toast bg-success mt-1"
+    role="alert"
+    aria-live="assertive"
+    aria-atomic="true"
+    ng-if="noUser==1"
+  >
+    <div class="toast-body d-flex align-items-center">
+      <p class="m-0">
+        Error al iniciar sesión; <strong>usuario</strong> y/o
+        <strong>contraseña</strong> incorrecta
+      </p>
+      .
+    </div>
+  </div>-->
+  <div class="toast-container">
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <img src="..." class="rounded me-2" alt="...">
+        <strong class="me-auto">Bootstrap</strong>
+        <small class="text-muted">just now</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        See? Just like this.
+      </div>
+    </div>
 </div>

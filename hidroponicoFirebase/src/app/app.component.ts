@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-//import { fa-user } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { AuthService } from './servicios/auth.service';
+
+
 
 @Component({
     selector: 'app-root',
@@ -10,7 +12,7 @@ import { AuthService } from './servicios/auth.service';
 export class AppComponent implements OnInit {
     public title = 'hidroponicoFirebase';
 
-    constructor(private authService: AuthService) { 
+    constructor(private authService: AuthService) {
     }
 
     ngOnInit(): void {

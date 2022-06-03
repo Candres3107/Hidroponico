@@ -1,8 +1,8 @@
-<nav class="nav nav-pills nav-justified w-100 bg-primary" id="navbar">
+<!--<nav class="nav nav-pills nav-justified w-100 bg-primary" id="navbar">
     <div class="container">
         <div class="row w-100">
             <div class="col"><a class="nav-item nav-link text-light text-left" href="#">HYTools</a></div>
-            <div class="col">
+            <div class="col" id="Bienvenida">
                 <p class="text-light text-center my-0">
                     Hola, {{user}}
                 </p>
@@ -12,6 +12,30 @@
             </div>
         </div>
     </div>
+</nav>-->
 
-    <!--<a class="nav-item nav-link" href="#">Link</a>-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">HYTools</a>
+        <button class="navbar-toggler" [ngStyle]="{'display':visiblehamburguer}" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">
+                    <div class="col" id="Bienvenida">
+                        <p class="text-light text-center my-0" id="textobienvenida">
+                            Hola, {{user}}
+                        </p>
+                    </div>
+                </a>
+                <!--<a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link disabled">Disabled</a>-->
+            </div>
+            <div class="col d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-info btn-danger me-md2 m2 w-30 " [ngStyle]="{'display':visible}" (click)="Logout()">Cerrar sesion</button>
+            </div>
+        </div>
+    </div>
 </nav>

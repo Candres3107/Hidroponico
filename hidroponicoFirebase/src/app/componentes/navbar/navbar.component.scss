@@ -1,22 +1,41 @@
-#navbar .container{
+#navbar {
+    background-color: green;
+}
+
+#navbar .container-fluid {
     max-width: 95%;
 }
-#navbar .row .col{
+
+#navbar .row .col {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0;
+    background-color: green;
 }
-#navbar .row .col:first-child{
+
+#navbar .row .col:first-child {
     justify-content: left;
 }
-#navbar .row .col:first-child a{
+
+#navbar .row .col:first-child a {
     font-size: 20px;
     font-weight: 600;
 }
-#navbar .row .col:last-child{
+
+#navbar .row .col:last-child {
     justify-content: right;
+    background-color: green;
 }
-#navbar .row .col:last-child button{
-    margin-right: -20px;
+
+#navbar .row .col:last-child button {
+    margin-right: 10px;
+}
+
+#Bienvenida {
+    font-size: 15px;
+}
+
+#textobienvenida {
+    color: #47C93A !important;
 }

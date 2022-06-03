@@ -10,9 +10,10 @@ import { AuthService } from 'src/app/servicios/auth.service';
 export class NavbarComponent implements OnInit {
     public isUserLogged$: Observable<any> = of(this.authService.getSesionInfo());
     public user$: Observable<any> = of(this.authService.getUserInfo());
-    @Input () user: string | any; 
-    @Input () visible: string | any; 
-    
+    @Input () user: string | any;
+    @Input () visible: string | any;
+    @Input () visiblehamburguer: string | any;
+
     constructor(private authService: AuthService) {
     }
 
@@ -36,6 +37,6 @@ export class NavbarComponent implements OnInit {
             return data;
         })
     }
-    
+
 
 }

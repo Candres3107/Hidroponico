@@ -1,0 +1,229 @@
+#myChart {
+    //background-color: rgba(255, 255, 255, 1);
+    color: #fff;
+}
+
+#contenedor {
+    background-color: rgba(39, 55, 70, 0.7);
+    border-radius: 5px;
+}
+
+#Linea {
+    background-color: rgba(39, 55, 70, 0.7);
+    height: 30vh;
+    border-color: #fff;
+    border-width: 5px;
+    border: white 1px solid;
+    border-radius: 2px;
+}
+
+#cardsto {
+    position: relative;
+    top: 10px;
+}
+
+#cardsto2 {
+    position: relative;
+    top: -100px;
+    left: 38%;
+    font-size: 45px;
+}
+
+.card-title {
+    background-repeat: no-repeat;
+    background-size: 3vh;
+    background-position: 85%;
+    color: #fff;
+    font-size: 15px;
+    //background-color: rgba(25, 28, 36, 0.5);
+}
+
+#circulo {
+    height: 50px;
+    width: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    //left: 35%;
+    border: white 1px solid;
+}
+
+#ancho {
+    //justify-content: center;
+    text-align: center;
+}
+
+.chartjs-wrapper {
+    //margin: 0 auto;
+    height: auto;
+    width: 320px;
+    color: #fff;
+    border-color: #fff;
+    border-width: 2px;
+    //padding: 20px;
+}
+
+#tabla {
+    background-color: rgba(39, 55, 70, 0.7);
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#td {
+    color: #fff;
+    position: relative;
+    top: 15%;
+    //padding: 0.75em;
+}
+
+#th {
+    color: #fff;
+}
+
+@media only screen and (max-width: 840px) {
+    .bes-selfservice-steptocheckout .telefonica .container .container-steps {
+        width: 100%;
+    }
+    .bes-selfservice-steptocheckout .telefonica .container .container-steps .line-large {
+        width: 36%;
+    }
+}
+
+
+/** --------------------------------
+   -- Popup
+  -------------------------------- */
+
+#contenedor2 {
+    width: 100%;
+    max-width: 1025px;
+    height: auto;
+    background: rgba(39, 55, 70, 0.7);
+    color: #fff;
+    border-radius: 10px;
+    border-color: #fff;
+    border: white 1px solid;
+}
+
+#boton {
+    position: relative;
+    top: -5px;
+}
+
+#container {
+    //background-color: #34495E;
+    width: 311px;
+    max-width: 1035px;
+    height: auto;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    right: 0.5rem;
+}
+
+#img {
+    border-radius: 10px;
+    position: relative;
+    left: 20%;
+    top: 10%;
+}
+
+#iconshow {
+    position: relative;
+    top: 4.4%;
+}
+
+#tituloTar {
+    color: #30C4C9;
+}
+
+
+/*
+.popup {
+    width: 100%;
+    max-width: 1045px;
+    height: 500px;
+    position: relative;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background: rgba(39, 55, 70, 0.7);
+    z-index: 10;
+    text-decoration-skip: none !important;
+}
+
+.image {
+    width: 15%;
+    height: 15%;
+    overflow: none;
+    position: relative;
+    right: 10%;
+}
+
+.container-text {
+    width: 50%;
+    position: relative;
+    top: 30%;
+    color: #fff;
+    //left: 1%;
+    height: 60%;
+    text-decoration: none !important;
+    pointer-events: none;
+    cursor: default;
+}
+
+.container-text h2 {
+    font-size: 30px;
+    //color: #1AA809;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.container-text p {
+    font-size: 13px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.titlepop {
+    text-decoration: none;
+    cursor: none;
+}
+
+.container-all {
+    width: 100%;
+    height: auto;
+    //z-index: 10000;
+    position: relative;
+    //left: 5%;
+    //top: 160%;
+    //visibility: hidden;
+    transition: all 500ms ease;
+}
+
+.container-all:target {
+    background: rgba(0, 0, 0, 0.8);
+    visibility: visible;
+    opacity: 1;
+}
+
+#titlepop {
+    text-decoration: none;
+}
+
+#Boton {
+    position: relative;
+    top: 70%;
+    left: 5%;
+}/*
+
+
+/** --------------------------------
+   -- Fin popup
+  -------------------------------- */

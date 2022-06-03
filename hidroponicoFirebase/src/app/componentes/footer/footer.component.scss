@@ -1,4 +1,17 @@
-#footer{
+#footer {
     border-top: .5px solid #ddd;
-    margin-top: 20px;
+    margin-top: 10px;
+    color: #ddd;
+    height: calc(17vh);
+}
+
+#foot {
+    border-top: .5px solid #ddd;
+    margin-top: 10px;
+    color: #ddd;
+}
+
+#footers {
+    position: relative;
+    top: -50%;
 }

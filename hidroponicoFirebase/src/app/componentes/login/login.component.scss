@@ -4,4 +4,20 @@
     align-items: center;
     width: 100vw;
     height: 78vh;
+    flex-direction: column;
+}
+
+#navbar {
+    background-color: green;
+}
+
+#boton {
+    background-color: #28B463;
+}
+
+#icouser {
+    position: absolute;
+    top: 53%;
+    left: 13px;
+    width: 15%;
 }
